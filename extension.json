@@ -1,0 +1,42 @@
+{
+  "id": "contentful-extension-matrix-field",
+  "name": "Matrix",
+  "srcdoc": "./dist/index.html",
+  "fieldTypes": [
+    "Object"
+  ],
+  "parameters": {
+    "instance": [
+      {
+        "id": "video",
+        "name": "Video field",
+        "description": "Enable video field",
+        "type": "Boolean"
+      },
+      {
+        "id": "image",
+        "name": "Image field",
+        "description": "Enable image field",
+        "type": "Boolean"
+      },
+      {
+        "id": "textWithImage",
+        "name": "Text with image",
+        "description": "Enable text with image field",
+        "type": "Boolean"
+      },
+      {
+        "id": "title",
+        "name": "Title",
+        "description": "Enable title field",
+        "type": "Boolean"
+      },
+      {
+        "id": "titleWithBody",
+        "name": "Title with body text",
+        "description": "Enable title with body text field",
+        "type": "Boolean"
+      }
+    ]
+  }
+}
